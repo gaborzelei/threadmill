@@ -12,7 +12,7 @@ You will need to install `wheel` for this to work:
 pip install wheel
 ```
 
-To install it using `pip` run the following command:
+To install `threadmill` using `pip` run the following command:
 ```bash
 pip install git+https://github.com/gaborzelei/threadmill
 ```
@@ -71,3 +71,5 @@ values = [handle.result() for handle in handles]
 # Known issues and limitations
 Type hinting is broken for `handle.result()`. 
 This is a limitation that comes from the `futures` module and there's no known solution to it at this point in time.
+
+Also, there are not unit tests, for which I'm genuinely ashamed...
