@@ -1,0 +1,2 @@
+class ThreadExecutionWarning(Warning):
+    pass
