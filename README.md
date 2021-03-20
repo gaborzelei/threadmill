@@ -6,8 +6,13 @@ It contains a decorator function that makes it very easy to run a method or func
 # Installation
 
 Currently, this repo is not in pip - it may never get to that point, actually. 
-To install it using `pip` run the following command:
 
+You will need to install `wheel` for this to work:
+```bash
+pip install wheel
+```
+
+To install it using `pip` run the following command:
 ```bash
 pip install git+https://github.com/gaborzelei/threadmill
 ```
