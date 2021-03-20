@@ -3,8 +3,8 @@ from functools import wraps
 from os import getenv
 from typing import Callable
 
-from src.threadmill.exceptions import ThreadExecutionWarning
-from src.threadmill.singleton import Singleton
+from threadmill import ThreadExecutionWarning
+from threadmill import Singleton
 
 
 class ThreadWrapper(metaclass=Singleton):
