@@ -5,7 +5,7 @@ It contains a decorator function that makes it very easy to run a method or func
 
 # Installation
 
-Currently, this repo is not in pip - it may never get to that point, actually. 
+Currently, this repo is not in `pip` - it may never get to that point, actually. 
 
 You will need to install `wheel` for this to work:
 ```bash
