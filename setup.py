@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name='ThreadMill',
-    version='1.0.0',
+    name='threadmill',
+    version='1.0.1',
     packages=['src'],
     url='https://github.com/gaborzelei/threadmill',
     license='MIT',
