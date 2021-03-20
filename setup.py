@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='threadmill',
-    version='1.0.2',
+    version='1.0.3',
     packages=['threadmill'],
     url='https://github.com/gaborzelei/threadmill',
     license='MIT',
