@@ -69,7 +69,7 @@ values = [handle.result() for handle in handles]
 ```
 
 # Notes
-The default number of maximum workers in the underlying thread pool is CPU count x5. You can pecify the `MAX_WORKER_THREADS` environment variable in to override this number.
+The default number of maximum workers in the underlying thread pool is CPU count x5. You can specify the `MAX_WORKER_THREADS` environment variable in to override this number.
 
 # Known issues and limitations
 Type hinting is broken for `handle.result()`. 
